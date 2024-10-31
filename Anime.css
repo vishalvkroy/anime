@@ -1,0 +1,589 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+    .main{
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(245, 108, 165, 0.637),rgba(90, 247, 199, 0.692)), url(anime.jpg);
+        background-position: center;
+        background-size: cover;
+        height:100%;
+    }
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+        position: fixed;
+        margin-left: 80px;
+    }
+ 
+    .icon {
+        float: left;
+        height: 70px;
+        width: 120px;
+    }
+
+    img{
+        padding-top: 10px;
+    }
+
+    h3 {
+        color: azure;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+.menu {
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px ;
+    margin-top: 28px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: wavy;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+
+}
+
+ul li a:hover{
+    color: cyan;
+}
+
+.search {
+    width: 300px;
+    float: left;
+    margin-left: 300px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    margin-top: 10px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid cyan;
+    color: azure;
+    float: left;
+    font-size: 15px;
+    padding: 10px;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background: rgb(0, 10, 10);
+    border: 2px solid cyan;
+    color: azure;
+    font-size: 15px;
+    font-family: Georgia;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: cyan;
+}
+.btn :focus {
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+.btn,.srch {
+    margin-top: 20px;
+}
+
+.animebody{
+    width: 1300px;
+    height: max-content;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.box1{
+    height:400px ;
+    width: 300px;
+    align-items: center;
+    background-image: url(op.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 10px; 
+}
+
+.box1 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box1:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(op.jpg) ;
+}
+
+.box2{
+    height:400px ;
+    width: 300px;
+    background-image: url(bleach.png);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    align-items: center;
+}
+.box2 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box2:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(bleach.png) ;
+    
+   
+}
+
+.box3{
+    height:400px ;
+    width: 300px;
+    background-image: url(dbz.jpg);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    align-items: center;
+}
+
+.box3 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box3:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(dbz.jpg) ;
+    
+   
+}
+
+.box4{
+    height:400px ;
+    width: 300px;
+    background-image: url(aot.jpeg);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    align-items: center;
+}
+.box4 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box4:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(aot.jpeg) ;
+    
+}
+
+.box5{
+    height:400px ;
+    width: 300px;
+    background-image: url(demon-slayer-kimetsu-no-yaiba-vol-3-9781974700547_hr.jpg);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    align-items: center;
+}
+.box5 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box5:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(demon-slayer-kimetsu-no-yaiba-vol-3-9781974700547_hr.jpg) ;
+    
+   
+}
+
+.box6{
+    height:400px ;
+    width: 300px;
+    background-image: url(hxh.png);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    align-items: center;
+}
+.box6 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box6:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(hxh.png) ;
+    
+   
+}
+
+.box7{
+    height:400px ;
+    width: 300px;
+    background-image: url(JJK22.webp);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    align-items: center;
+}
+.box7 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box7:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(JJK22.webp) ;
+    
+   
+}
+
+.box8{
+    height:400px ;
+    width: 300px;
+    background-image: url(bc.jpg);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    align-items: center;
+    overflow: hidden;
+}
+.box8 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box8:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(bc.jpg) ;
+    
+   
+}
+.box9{
+    height:400px ;
+    width: 300px;
+    background-image: url(hero\ academia.jpg);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    align-items: center;
+}
+.box9 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box9:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(hero\ academia.jpg) ;
+    
+   
+}
+.box10{
+    height:400px ;
+    width: 300px;
+    background-image: url(naruto.jpg);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    align-items: center;
+}
+.box10 .btn2{
+    margin-top: 325px;
+    margin-left: 50px;
+    bottom: 0;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(243, 128, 113, 0.925) ;
+    border-collapse: collapse;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border: none;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: rgb(105, 230, 203, 0.925);
+}
+.box10:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.808)), url(naruto.jpg) ;
+    
+   
+}
+.box11{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+.box12{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+
+
+
+
+.box13{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+.box14{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+.box15{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+.box16{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+.box17{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+.box18{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+
+.box19{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+
+.box20{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+.box21{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+.box22{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+
+.box23{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
+.box24{
+    height:400px ;
+    width: 300px;
+    background-color: brown;
+    align-items: center;
+}
